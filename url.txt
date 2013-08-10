@@ -1,0 +1,17 @@
+/movie/	movie.views.MovieList	
+/movie/<id>/cast/<pk>/	movie.views.CastDetail	
+/movie/<id>/crew/<pk>/	movie.views.CrewDetail	
+/movie/<pk>/	movie.views.MovieDetail	
+/movie/<pk>/cast/	movie.views.CastList	
+/movie/<pk>/crew/	movie.views.CrewList	
+/movie/<pk>/images/	movie.views.ImageList	
+/movie/<pk>/images/<type>/	movie.views.ImageTypesList	
+/movie/<pk>/productions/	movie.views.ProductionCompanies	
+/movie/<pk>/releases/	movie.views.ReleaseList	
+/movie/<pk>/revenue/	movie.views.RevenueList	
+/movie/<pk>/videos/	movie.views.VideoList	
+/movie/<pk>/videos/<type>/	movie.views.VideoTypesList	
+/person/	person.views.PersonList	
+/person/<pk>/	person.views.PersonDetail	
+/person/<pk>/images/	person.views.PersonImageList	
+/site_media/media/<path>	django.views.static.serve	
